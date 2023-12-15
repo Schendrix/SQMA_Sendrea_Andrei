@@ -6,7 +6,7 @@ import java.util.List;
 import static org.junit.Assert.*;
 
 public class SalariatTests {
-    Salariat salariat;
+    public Salariat salariat;
 
     @Before
     public void setUp(){
