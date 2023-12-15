@@ -20,10 +20,9 @@ public class SalariatTests {
 
     @Test
     public void testCalculSalariu(){
-
         double rezultat=salariat.calculSalariu(100);
         double rezultatAsteptat=80;
-        assertEquals(rezultatAsteptat, rezultat);
+        assertEquals(rezultatAsteptat, rezultat,0.001);
     }
 
     @Test
@@ -39,7 +38,7 @@ public class SalariatTests {
     public void testRaportVirgulaMobila(){
         double rezultat=salariat.majorareSalariu(12, 100);
         double rezultatAsteptat=100;
-        assertEquals(rezultatAsteptat, rezultat);
+        assertEquals(rezultatAsteptat, rezultat,0.001);
     }
 
 
