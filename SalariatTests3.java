@@ -5,7 +5,7 @@ import java.util.List;
 
 import static org.junit.Assert.*;
 
-public class SalariatTests {
+public class SalariatTests3 {
     public Salariat salariat;
 
     @Before
